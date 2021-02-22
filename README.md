@@ -35,3 +35,8 @@ Przykladowe operacje na bazie danych
     db.collection('departments').deleteOne({ name: 'Management' }, (err) => {
       if (err) console.log(err);
     });
+
+USe mongodb compas
+
+sudo systemctl start mongod
+connect to mongodb db using mongodb compas
